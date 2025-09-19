@@ -1,20 +1,20 @@
 #Program _0PG;
-Variable Integer_2 _0AA, _1AB, _2BC, _3MN;
+Variable Integer_2 _0AA, _0BB, _0XX, _0YY;
 
 Start
 
 Read (_0AA);
-Read (_1AB);
-Write (_0AA ++ _1AB);
-Write (_0AA -- _1AB);
-Write (_0AA ** _1AB);
-Write (_0AA Div _1AB);
-Write (_0AA Mod _1AB);
+Read (_0BB);
+Write (_0AA ++ _0BB);
+Write (_0AA -- _0BB);
+Write (_0AA ** _0BB);
+Write (_0AA Div _0BB);
+Write (_0AA Mod _0BB);
 
-(_0AA -- _1AB) ** 10 ++ (_0AA ++ _1AB) Div 10 -> _2BC;
-_2BC ++ _2BC Mod 10 -> _3MN;
+(_0AA -- _0BB) ** 10 ++ (_0AA ++ _0BB) Div 10 -> _0XX;
+_0XX ++ _0XX Mod 10 -> _0YY;
 
-Write (_2BC);
-Write (_3MN);
+Write (_0XX);
+Write (_0YY);
 
 Stop
