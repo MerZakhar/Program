@@ -8,7 +8,7 @@ Read (_0AA);
 Read (_0BB);
 
 For _0II -> _0BB Downto _0AA Do
-	Write (_0II ** _0II)
+	Write (_0II ** _0II);
 
 _0CC -> 0;
 For _0II -> _0AA Downto 1 Do
