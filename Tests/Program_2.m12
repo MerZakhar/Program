@@ -22,21 +22,21 @@ If _0AA > _0BB {
 }
 
 If _0AA == _0BB & _0AA == _0CC & _0BB == _0CC {
-	Write ("1");
+	Write (1);
 } Else {
-	Write ("0");
+	Write (0);
 }
 
 If _0AA < 0 | _0BB < 0 | _0CC < 0 {
-	Write ("-1");
+	Write (-1);
 } Else {
-	Write ("0");
+	Write (0);
 }
 
 If !(_0AA < (_0BB ++ _0CC)) {
-	Write ("10");
+	Write (10);
 } Else {
-	Write ("0");
+	Write (0);
 }
 
 Stop
