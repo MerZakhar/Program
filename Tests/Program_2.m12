@@ -28,7 +28,7 @@ If _0AA == _0BB & _0AA == _0CC & _0BB == _0CC {
 }
 
 If _0AA < 0 | _0BB < 0 | _0CC < 0 {
-	Write (-1);
+	Write (--1);
 } Else {
 	Write (0);
 }
