@@ -7,13 +7,13 @@ Start
 Read (_0AA);
 Read (_0BB);
 
-For _0II -> _0BB Downto _0AA Do
+For _0BB -> _0II Downto _0AA Do
 	Write (_0II ** _0II);
 
-_0CC -> 0;
-For _0II -> _0AA Downto 1 Do
-	For _0JJ -> _0BB Downto 1 Do
-		_0CC -> _0CC ++ 1;
+0 -> _0CC;
+For _0AA -> _0II Downto 1 Do
+	For _0BB -> _0JJ Downto 1 Do
+		_0CC ++ 1 -> _0CC;
 Write (_0CC);
 
 Stop
